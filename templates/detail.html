@@ -19,12 +19,13 @@
      {% block content %}
          <div class="details">
          <h2>&emsp;{{ article.title }}</h2>
-         <div style="background-color: #FCEEB9">
+         <div style="background-color: #f7e9e3; margin-block-start: 0; text-align: justify;">
          <p>&emsp;{{ article.body }}</p>
          </div>
      {% endblock content %}
      </div>
-     <img src="https://source.unsplash.com/1520x300/?{{article.title}}" class="img-fluid" alt="...">
+     <img src="https://source.unsplash.com/1520x300/?{{ article.title }}" class="img-fluid" style="width: 99vw; height: 60vh;" alt="...">
+
      
  </body>
  </html>

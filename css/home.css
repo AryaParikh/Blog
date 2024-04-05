@@ -1,0 +1,41 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-container h1 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .article {
+    margin: 20px;
+  }
+  
+  .article-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-item h3 {
+    color: #333;
+  }
+  
+  .article-body {
+    margin-top: 10px;
+  }
+  
+  /* Add more styles as needed */
+  
